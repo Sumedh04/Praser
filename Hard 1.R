@@ -42,8 +42,8 @@ for(i in 1:(length(family_names)-1))
 Family <- rep(family_names,numbers)
 
 # Getting all the scinames and creating a vector to store them
-numbered_rows <- grep("^[0-9]", taxo_data)
-sci_names <- taxo_data[numbered_rows]
+numbered_rows <- grep("^[0-9]", taxo)
+sci_names <- taxo[numbered_rows]
 sci_names <- gsub("^[0-9]+. ", "", sci_names)
 
 
