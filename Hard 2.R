@@ -68,7 +68,7 @@ convert2CSV <- function(input_file,...)
       i = i + 2
     }
   }
-  Distribution[length(Family)] <- taxo[length(pointer_up),]
+  Distribution[length(Family)] <- paste(taxo[length(taxo),])
   
   #removing the word 'distribution' from the Distribution column
   Distribution <- gsub("Distribution: ", "", Distribution)
