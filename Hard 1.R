@@ -1,6 +1,8 @@
+#Hard: Read in the file [https://github.com/vijaybarve/Parser-GSOC2017-idea/blob/master/taxo01.txt] and output the parsed data in the form of .csv file 
+
 # Test case - Hard 1: Read a text file and convert it into csv 
 
-# ---- Reading of text file ----
+# Reading the text file
 taxo <- read.csv("taxo01.txt", sep = "\t" , header = FALSE)
 taxo <- as.data.frame(taxo)
 
