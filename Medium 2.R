@@ -1,4 +1,7 @@
-genusname <- function(input_url,...)
+#Convert the Medium 1 task into function
+
+
+speciesname <- function(input_url,...)
 {
   library(RCurl)
   library(XML)
