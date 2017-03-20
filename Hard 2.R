@@ -1,3 +1,5 @@
+#Hard: Conver hard 1 task into a function
+
 convert2CSV <- function(input_file,...)
 {
   # ---- Reading of text file ----
